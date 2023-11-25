@@ -24,8 +24,7 @@ stree.{c,h}     Data structure used by the driver to check for
 MLabInst.so     Code that combines with LLVM compiler infrastructure
                 to enable sparse memory emulation
 macro-check.pl  Code to check for disallowed macro definitions
-driver.pl       Runs both mdriver and mdriver-emulate and generates
-                the autolab result.  (Not included with checkpoint)
+driver.pl       Runs both mdriver and mdriver-emulate
 calibrate.pl   Code to generate benchmark throughput
 throughputs.txt Benchmark throughputs, indexed by CPU type
 
